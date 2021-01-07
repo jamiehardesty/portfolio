@@ -1,0 +1,15 @@
+/* requirements: 
+
+background, color, font-family, font-size,
+height, margin, padding, text-align
+
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    background: linear-gradient(35deg, #ccffff, #ffcccc);
+  }
+
+  
