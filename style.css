@@ -3,6 +3,10 @@
 background, color, font-family, font-size,
 height, margin, padding, text-align
 
+Semantic containers like main, article, and footer
+Styled links using pseudo-classes
+Comments throughout your HTML and CSS that explain your code
+
 */
 
 body {
@@ -12,4 +16,3 @@ body {
     background: linear-gradient(35deg, #ccffff, #ffcccc);
   }
 
-  
