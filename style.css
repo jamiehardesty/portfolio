@@ -1,14 +1,3 @@
-/* requirements: 
-
-background, color, font-family, font-size,
-height, margin, padding, text-align
-
-Semantic containers like main, article, and footer
-Styled links using pseudo-classes
-Comments throughout your HTML and CSS that explain your code
-
-*/
-
 /*
    I assume a reset is OK? 
 
@@ -37,6 +26,17 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+/* requirements: 
+
+background, color, font-family, font-size,
+height, margin, padding, text-align
+
+Semantic containers like main, article, and footer
+Styled links using pseudo-classes
+Comments throughout your HTML and CSS that explain your code
+
+*/
 
 body {
     font-size: 62.5%;
