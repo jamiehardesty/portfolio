@@ -40,17 +40,19 @@ Comments throughout your HTML and CSS that explain your code
 
 body {
   font-size: 62.5%;
-  /* font-family: 'Shadows Into Light', cursive; */
   font-family: 'Roboto Condensed', sans-serif;
-  /* background-color: #495C7C; */
   color: #CB9A9F;
-  /* width: 80%; */
-  /* display: flex;
-  justify-content: center;
-  flex-direction: column; */
   background: linear-gradient(35deg, #3A3A3F, #871746);
 }
-span {
+
+/* header content */
+header {
+  border-bottom: 1px dotted black;
+  text-align: center;
+  padding: 1% 0 1% 0;
+  background-color: #3A3A3F;
+}
+span { /* for stylization purposes */ 
   font-family: 'Parisienne', cursive;
   font-size: 1em;
   color: #CB9A9F;
@@ -67,48 +69,23 @@ h2, footer a {
   font-family: 'Shadows Into Light', cursive;
   color: #CB9A9F;
   text-shadow: 2px 2px 5px #407be0;
-  /* display: block; */
   text-decoration: none;
 }
-footer h1 {
-  padding-bottom: 2%;
-}
-footer a:hover {
-  text-shadow: 2px 2px 5px #fc026a;
-}
-h3 {
+
+/* main body */
+h3 { /* stylizing the body headings */
   font-size: 1em;
   font-family: 'Dancing Script', cursive;
-  /* font-family: 'Kristi', cursive; */
   color: #CB9A9F;
   text-shadow: 0 1px 2px #3A3A3F, 0px 0px 20px #ff0000;
 }
-h4 {
+h4 { /* stylizing the body headings */
   padding: 5% 0 0 0;
   font-size: 1.75em;
   color: #CB9A9F;
   text-align: center;
   font-family: 'Kristi', cursive;
-  /* font-family: 'Dancing Script', cursive; */
   text-shadow: 0 1px 2px #3A3A3F, 0px 0px 25px #407be0;
-}
-header {
-  border-bottom: 1px dotted black;
-  text-align: center;
-  padding: 1% 0 1% 0;
-  background-color: #3A3A3F;
-  /* background: linear-gradient(35deg, #3A3A3F, #871746); */
-}
-hr {
-  border: 1px dotted #3A3A3F;
-  width: 50%;
-  margin-top: 3%;
-}
-footer {
-  background-color: #3A3A3F;
-  border-top: 1px dotted black;
-  text-align: center;
-  padding: 2% 0 3% 0;
 }
 main {
   font-size: 3em;
@@ -119,28 +96,53 @@ main {
   text-shadow: 2px 2px 3px #871746;
   padding-bottom: 5%;
 }
-main .selfie img{
+main section {
+  width: 50%;
+}
+
+/* selfie section */
+.selfie {
+  padding: 5% 0 1% 0;
+  text-align: center;
+}
+img{
   box-shadow: 0px 0px 10px #030303;
   border: 1px solid white; 
   width: 50%;
   height: 50%;
 }
-.selfie {
-  padding: 5% 0 1% 0;
-  text-align: center;
-}
-main section {
-  width: 50%;
-}
+
+/* content & lists */
 section p {
   padding: 1% 0 1% 0;
   font-size: .8em;
 }
 ul, li, ol {
-  /* font-family: 'Shadows Into Light', cursive; */
   padding-left: 7%;
-  /* text-indent: -7.25%; */
   font-size: .9em;
   padding-top: 2%;
-  /* padding: 1% 0 1% 0; */
+}
+
+/* required */
+hr {
+  border: 1px dotted #3A3A3F;
+  width: 50%;
+  margin-top: 3%;
+}
+
+/* footer content */
+footer {
+  background-color: #3A3A3F;
+  border-top: 1px dotted black;
+  text-align: center;
+  padding: 2% 0 3% 0;
+}
+footer h1 {
+  padding-bottom: 2%;
+}
+footer a:hover { /* pseudo-cclass for links */
+  text-shadow: 2px 2px 5px #fc026a;
+}
+footer a:visited { /* pseudo-cclass for links */
+  text-shadow: 2px 2px 5px black;
 }

@@ -21,9 +21,10 @@ The following HTML elements:
 [x]  h1, h2, h3, p, link, ul, ol, img, a, hr
 
 The following CSS properties:
-[ ]  background, color, font-family, font-size,
-[ ]  height, margin, padding, text-align
+[x]  background, color, font-family, font-size,
+[x]  height, margin, padding, text-align
 
-[ ] Semantic containers like main, article, and footer
-[ ] Styled links using pseudo-classes
-[ ] Comments throughout your HTML and CSS that explain your code
+[x] Semantic containers like main, article, and footer
+[x] Styled links using pseudo-classes
+- 2 - a:hover, a:visited
+[x] Comments throughout your HTML and CSS that explain your code
