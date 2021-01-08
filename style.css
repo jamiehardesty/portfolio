@@ -46,11 +46,15 @@ body {
   }
 
   h1 {
-    font-size: 4em;
+    font-size: 5em;
   }
 
   h2 {
-    font-size: 3em;
+    font-size: 4em;
+  }
+
+  h3 {
+    font-size: 2em;
   }
 
   header {
@@ -69,10 +73,16 @@ body {
 
   main {
     font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
-  main img {
-    display: flex;
+
+  .selfie {
+    padding: 1% 0 1% 0;
+    text-align: center;
   }
 
   footer {
