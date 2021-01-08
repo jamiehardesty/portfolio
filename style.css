@@ -39,63 +39,94 @@ Comments throughout your HTML and CSS that explain your code
 */
 
 body {
-    font-size: 62.5%;
-    font-family: 'Kristi', cursive;
-    background-color: #E2D9CA;
-    color: #6F2937;
-  }
-
-  h1 {
-    font-size: 5em;
-    
-  }
-
-  h2 {
-    font-size: 3.5em;
-    font-family: 'Shadows Into Light', cursive;
-  }
-
-  h3 {
-    font-size: 2em;
-  }
-
-  h4 {
-    font-size: 1.75em;
-    font-family: 'Shadows Into Light', cursive;
-  }
-
-  header {
-    background-color: rgb(54, 18, 18);
-    border-bottom: 1px dotted black;
-    text-align: center;
-    padding: 1% 0 1% 0;
-    color: black;
-    background: linear-gradient(35deg, #E02C62, #6F2937);
-  }
-
-  span {
-    font-family: 'Parisienne', cursive;
-    font-size: 1em;
-  }
-
-  main {
-    font-size: 3em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-
-
-  .selfie {
-    padding: 1% 0 1% 0;
-    text-align: center;
-  }
-
-  footer {
-    background-color: #E3BC9A;
-  }
-
-  ul {
-    font-family: 'Shadows Into Light', cursive;
-  }
+  font-size: 62.5%;
+  /* font-family: 'Shadows Into Light', cursive; */
+  font-family: 'Roboto Condensed', sans-serif;
+  /* background-color: #495C7C; */
+  color: #CB9A9F;
+  /* width: 80%; */
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column; */
+  background: linear-gradient(35deg, #3A3A3F, #871746);
+}
+span {
+  font-family: 'Parisienne', cursive;
+  font-size: 1em;
+  color: #CB9A9F;
+  text-shadow: 2px 2px 5px #fc026a;
+}
+h1 {
+  font-size: 5em;
+  font-family: 'Kristi', cursive;
+  color: #CB9A9F;
+  text-shadow: 2px 2px 5px #fc026a;
+}
+h2 {
+  font-size: 2.8em;
+  font-family: 'Shadows Into Light', cursive;
+  color: #CB9A9F;
+  text-shadow: 2px 2px 5px #fc026a;
+}
+h3 {
+  font-size: 1em;
+  font-family: 'Dancing Script', cursive;
+  /* font-family: 'Kristi', cursive; */
+  color: #CB9A9F;
+  text-shadow: 0 1px 2px #3A3A3F, 0px 0px 20px #ff0000;
+}
+h4 {
+  padding: 5% 0 0 0;
+  font-size: 1.75em;
+  color: #CB9A9F;
+  text-align: center;
+  font-family: 'Kristi', cursive;
+  /* font-family: 'Dancing Script', cursive; */
+  text-shadow: 0 1px 2px #3A3A3F, 0px 0px 25px #407be0;
+}
+header {
+  background-color: rgb(54, 18, 18);
+  border-bottom: 1px dotted black;
+  text-align: center;
+  padding: 1% 0 1% 0;
+  color: black;
+  /* width: 125%; */
+  background-color: #3A3A3F;
+  /* background: linear-gradient(35deg, #3A3A3F, #871746); */
+}
+main {
+  font-size: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-shadow: 2px 2px 3px #871746;
+}
+main .selfie img{
+  box-shadow: 0px 0px 10px #030303;
+  border: 1px solid white; 
+  width: 400px; 
+  height: 300px;
+}
+.selfie {
+  padding: 5% 0 1% 0;
+  text-align: center;
+}
+main section {
+  width: 50%;
+}
+section p {
+  padding: 1% 0 1% 0;
+  font-size: .8em;
+}
+footer {
+  background: linear-gradient(35deg, #CB9A9F, #871746);
+}
+ul, li, ol {
+  /* font-family: 'Shadows Into Light', cursive; */
+  padding-left: 7%;
+  /* text-indent: -7.25%; */
+  font-size: .9em;
+  padding-top: 2%;
+  /* padding: 1% 0 1% 0; */
+}
