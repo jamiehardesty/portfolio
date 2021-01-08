@@ -40,6 +40,41 @@ Comments throughout your HTML and CSS that explain your code
 
 body {
     font-size: 62.5%;
-    background: linear-gradient(35deg, #ccffff, #ffcccc);
+    font-family: 'Kristi', cursive;
+    background-color: #E2D9CA;
+    color: #6F2937;
   }
 
+  h1 {
+    font-size: 4em;
+  }
+
+  h2 {
+    font-size: 3em;
+  }
+
+  header {
+    background-color: rgb(54, 18, 18);
+    border-bottom: 1px dotted black;
+    text-align: center;
+    padding: 1% 0 1% 0;
+    color: black;
+    background: linear-gradient(35deg, #E02C62, #6F2937);
+  }
+
+  span {
+    font-family: 'Parisienne', cursive;
+    font-size: 1em;
+  }
+
+  main {
+    font-size: 3em;
+  }
+
+  main img {
+    display: flex;
+  }
+
+  footer {
+    background-color: #E3BC9A;
+  }
