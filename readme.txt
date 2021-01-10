@@ -9,12 +9,12 @@ Here are the requirements:
 [x]  A description that shows your passion for web development and your willingness to work with others
 [x]  One or two sentences that describe other interests you have outside of web development
 [x]  A Contact section that contains the following information:
-[ ]  A link to your LinkedIn profile
+[x]  A link to your LinkedIn profile
 [x]  A link to your GitHub profile
 [x]  A link to your email (optional)
 
 Technical requirements
-[ ] Your portfolio must be hosted on GitHub Pages, and it must include the following technical elements:
+[x] Your portfolio must be hosted on GitHub Pages, and it must include the following technical elements:
 
 The following HTML elements:
 [x]  doctype, html, head, body, meta, title,
