@@ -25,6 +25,11 @@ The following CSS properties:
 [x]  height, margin, padding, text-align
 
 [x] Semantic containers like main, article, and footer
+- forgot to add <article> the first time around.
 [x] Styled links using pseudo-classes
 - 2 - a:hover, a:visited
 [x] Comments throughout your HTML and CSS that explain your code
+
+Further feedback:
+- validate
+- grammarly
