@@ -6,25 +6,93 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 /* requirements: 
@@ -40,9 +108,9 @@ Comments throughout your HTML and CSS that explain your code
 
 body {
   font-size: 62.5%;
-  font-family: 'Roboto Condensed', sans-serif;
-  color: #CB9A9F;
-  background: linear-gradient(35deg, #3A3A3F, #871746);
+  font-family: "Roboto Condensed", sans-serif;
+  color: #cb9a9f;
+  background: linear-gradient(35deg, #3a3a3f, #871746);
 }
 
 /* header content */
@@ -50,42 +118,46 @@ header {
   border-bottom: 1px dotted black;
   text-align: center;
   padding: 1% 0 1% 0;
-  background-color: #3A3A3F;
+  background-color: #3a3a3f;
 }
-span { /* for stylization purposes */ 
-  font-family: 'Parisienne', cursive;
+span {
+  /* for stylization purposes */
+  font-family: "Parisienne", cursive;
   font-size: 1em;
-  color: #CB9A9F;
+  color: #cb9a9f;
   text-shadow: 2px 2px 5px #fc026a;
 }
 h1 {
   font-size: 5em;
-  font-family: 'Kristi', cursive;
-  color: #CB9A9F;
+  font-family: "Kristi", cursive;
+  color: #cb9a9f;
   text-shadow: 2px 2px 5px #fc026a;
 }
-h2, footer a {
+h2,
+footer a {
   font-size: 2.8em;
-  font-family: 'Shadows Into Light', cursive;
-  color: #CB9A9F;
+  font-family: "Shadows Into Light", cursive;
+  color: #cb9a9f;
   text-shadow: 2px 2px 5px #407be0;
   text-decoration: none;
 }
 
 /* main body */
-h3 { /* stylizing the body headings */
+h3 {
+  /* stylizing the body headings */
   font-size: 1em;
-  font-family: 'Dancing Script', cursive;
-  color: #CB9A9F;
-  text-shadow: 0 1px 2px #3A3A3F, 0px 0px 20px #ff0000;
+  font-family: "Dancing Script", cursive;
+  color: #cb9a9f;
+  text-shadow: 0 1px 2px #3a3a3f, 0px 0px 20px #ff0000;
 }
-h4 { /* stylizing the body headings */
+h4 {
+  /* stylizing the body headings */
   padding: 5% 0 0 0;
   font-size: 1.75em;
-  color: #CB9A9F;
+  color: #cb9a9f;
   text-align: center;
-  font-family: 'Kristi', cursive;
-  text-shadow: 0 1px 2px #3A3A3F, 0px 0px 25px #407be0;
+  font-family: "Kristi", cursive;
+  text-shadow: 0 1px 2px #3a3a3f, 0px 0px 25px #407be0;
 }
 main {
   font-size: 3em;
@@ -105,9 +177,9 @@ main section {
   padding: 5% 0 1% 0;
   text-align: center;
 }
-img{
+img {
   box-shadow: 0px 0px 10px #030303;
-  border: 1px solid white; 
+  border: 1px solid white;
   width: 75%;
   height: 75%;
 }
@@ -115,24 +187,26 @@ img{
 /* content & lists */
 section p {
   padding: 1% 0 1% 0;
-  font-size: .8em;
+  font-size: 0.8em;
 }
-ul, li, ol {
+ul,
+li,
+ol {
   padding-left: 7%;
-  font-size: .9em;
+  font-size: 0.9em;
   padding-top: 2%;
 }
 
 /* required */
 hr {
-  border: 1px dotted #3A3A3F;
+  border: 1px dotted #3a3a3f;
   width: 50%;
   margin-top: 3%;
 }
 
 /* footer content */
 footer {
-  background-color: #3A3A3F;
+  background-color: #3a3a3f;
   border-top: 1px dotted black;
   text-align: center;
   padding: 2% 0 3% 0;
@@ -140,9 +214,11 @@ footer {
 footer h1 {
   padding-bottom: 2%;
 }
-footer a:hover { /* pseudo-cclass for links */
+footer a:hover {
+  /* pseudo-cclass for links */
   text-shadow: 2px 2px 5px #fc026a;
 }
-footer a:visited { /* pseudo-cclass for links */
+footer a:visited {
+  /* pseudo-cclass for links */
   text-shadow: 2px 2px 5px black;
 }
