@@ -1,277 +1,224 @@
-@import url('https://fonts.googleapis.com/css?family=Assistant:400');
-@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+/*
+   I assume a reset is OK? 
+
+   http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* requirements: 
+
+background, color, font-family, font-size,
+height, margin, padding, text-align
+
+Semantic containers like main, article, and footer
+Styled links using pseudo-classes
+Comments throughout your HTML and CSS that explain your code
+
+*/
 
 body {
-    font-family: 'Assistant', sans-serif;
-    font-size: 62.5%;
-    width: 100%;
+  font-size: 62.5%;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #cb9a9f;
+  background: linear-gradient(35deg, #3a3a3f, #871746);
 }
-body > * {  
-    font-size: 1rem;
-    line-height: 200%;
-    margin: 0 auto;
-    padding: 0 2%;
-}
-header > * {
-    margin: 5%;
-}
-a, a:visited {
-    font-size: 1.25rem;
-    margin: 5%;
-    color:#000;
-    display: block;
-    text-decoration: none;
-    background-color: #fff;
-    border: 0px;
-    border-radius: 10px;
-}
-a:hover {
-    background: hsla(333, 100%, 53%, 1);
-    background: linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
-    background: -moz-linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
-    background: -webkit-linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
-    color: #fff;
-}
-nav {
-    display: flex;
-    justify-content: center;
-    text-transform: uppercase;
-}
-ul {
-    width: 100%;
-}
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 800;
-    background: -webkit-linear-gradient(45deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 2rem;
-}
-section#projects > h2 {
-    margin: 10% 0;
-    padding: 10%;
-    border: 1px solid red;
-    border-radius: 20px;
-}
-legend > h4 {
-    margin-top: 20%;
-}
-h6 {
-    font-size: 1rem;
-}
-b {
-    font-weight: 900;
-}
-i {
-    font-style: italic;
-}
-p {
-    margin: 5% 0;
+
+/* header content */
+header {
+  border-bottom: 1px dotted black;
+  text-align: center;
+  padding: 1% 0 1% 0;
+  background-color: #3a3a3f;
 }
 span {
-    font-family: 'Parisienne', cursive;
+  /* for stylization purposes */
+  font-family: "Parisienne", cursive;
+  font-size: 1em;
+  color: #cb9a9f;
+  text-shadow: 2px 2px 5px #fc026a;
 }
-header {
-    background: hsla(97, 68%, 90%, 1);
-    background: linear-gradient(270deg, hsla(97, 68%, 90%, 1) 14%, hsla(30, 82%, 91%, 1) 100%);
-    background: -moz-linear-gradient(270deg, hsla(97, 68%, 90%, 1) 14%, hsla(30, 82%, 91%, 1) 100%);
-    background: -webkit-linear-gradient(270deg, hsla(97, 68%, 90%, 1) 14%, hsla(30, 82%, 91%, 1) 100%);
-    border-bottom: #000 dotted 1px;
-    margin-bottom: 5%;
+h1 {
+  font-size: 5em;
+  font-family: "Kristi", cursive;
+  color: #cb9a9f;
+  text-shadow: 2px 2px 5px #fc026a;
 }
-header, footer {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+h2,
+footer a {
+  font-size: 2.8em;
+  font-family: "Shadows Into Light", cursive;
+  color: #cb9a9f;
+  text-shadow: 2px 2px 5px #407be0;
+  text-decoration: none;
+}
+
+/* main body */
+h3 {
+  /* stylizing the body headings */
+  font-size: 1em;
+  font-family: "Dancing Script", cursive;
+  color: #cb9a9f;
+  text-shadow: 0 1px 2px #3a3a3f, 0px 0px 20px #ff0000;
+}
+h4 {
+  /* stylizing the body headings */
+  padding: 5% 0 0 0;
+  font-size: 1.75em;
+  color: #cb9a9f;
+  text-align: center;
+  font-family: "Kristi", cursive;
+  text-shadow: 0 1px 2px #3a3a3f, 0px 0px 25px #407be0;
 }
 main {
-    margin: 0 auto;
-    text-align: center;
-    background-color: #fff;
-    width: 70%;
+  font-size: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-shadow: 2px 2px 3px #871746;
+  padding-bottom: 5%;
 }
-#projects article {
-    display: flex; /* without, inherits <main> styles */
-    flex-direction: row; /* without, <p> styles are not inherited */
+main section {
+  width: 50%;
 }
+
+/* selfie section */
+.selfie {
+  padding: 5% 0 1% 0;
+  text-align: center;
+}
+img {
+  box-shadow: 0px 0px 10px #030303;
+  border: 1px solid white;
+  width: 75%;
+  height: 75%;
+}
+
+/* content & lists */
+section p {
+  padding: 1% 0 1% 0;
+  font-size: 0.8em;
+}
+ul,
+li,
+ol {
+  padding-left: 7%;
+  font-size: 0.9em;
+  padding-top: 2%;
+}
+
+/* required */
+hr {
+  border: 1px dotted #3a3a3f;
+  width: 50%;
+  margin-top: 3%;
+}
+
+/* footer content */
 footer {
-    background: hsla(175, 68%, 90%, 1);
-    background: linear-gradient(90deg, hsla(175, 68%, 90%, 1) 14%, hsla(29, 78%, 91%, 1) 100%);
-    background: -moz-linear-gradient(90deg, hsla(175, 68%, 90%, 1) 14%, hsla(29, 78%, 91%, 1) 100%);
-    background: -webkit-linear-gradient(90deg, hsla(175, 68%, 90%, 1) 14%, hsla(29, 78%, 91%, 1) 100%);
-    padding: 5% 0 10% 0;
-    margin-top: 5%;
-    border-top: 1px #000 dotted;
+  background-color: #3a3a3f;
+  border-top: 1px dotted black;
+  text-align: center;
+  padding: 2% 0 3% 0;
 }
-fieldset {
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
+footer h1 {
+  padding-bottom: 2%;
 }
-input, button, textarea {
-    border-radius: 5px;
-    border: 1px solid red;
-    padding: 1%;
-    margin: 1% 1% 1rem 1%;
-    font-weight: 900;
-    height: 5rem;
-    font-size: 1.5rem;
-    text-align: center;
+footer a:hover {
+  /* pseudo-cclass for links */
+  text-shadow: 2px 2px 5px #fc026a;
 }
-input, textarea {
-    background: -webkit-linear-gradient(45deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: 'Assistant', sans-serif;
-}
-label {
-    font-weight: 900;
-}
-button {
-    background: hsla(333, 100%, 53%, 1);
-    background: linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
-    background: -moz-linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
-    background: -webkit-linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
-    color: #fff;
-    border: 0px;
-    border-radius: 20px;
-    font-weight: 400;
-}
-button:hover {
-    background-color: #000;
-    background: -webkit-linear-gradient(45deg, #ff0f7b 0%, #f89c2a 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    border: 1px solid #ff0f7b;
-}
-form > p {
-	border: 1px solid black;
-	margin: 0 0.5%;
-	text-align: right;
-	color:red; 
-    background-color: rgba(0, 0, 0,0.3);
-    border-radius: 10px;
-}
-label > span {
-    color: red;
-}
-.group {
-    margin: 0 auto;
-}
-.group > * {
-    display: flex;
-    justify-content: center;
-    margin: 2.5%;
-    flex: 1;
-}
-
-.firstBreak > article > a {
-    text-transform: uppercase;
-    background: hsla(333, 100%, 53%, 1);
-    background: linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
-    background: -moz-linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
-    background: -webkit-linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
-    color: #fff;
-    border: 1px solid white;
-}
-.firstBreak > article > a:hover {
-    background: white;
-    color: #000;
-}
-.firstBreak {
-    display: flex;
-    flex-direction: column;
-}
-.firstBreak > article {
-    height: 250px;
-    display: flex;
-    flex-direction: column !important;
-    padding: 2.5% 0;
-}
-/* ! use @media queries */
-
-@media screen and (min-width: 650px){
-    header {
-        height: 150px;
-    }
-    nav, ul, li, header > section {
-        margin: auto 0;
-        padding: 0;
-    }
-    header nav ul li {
-        width: 100%;
-    }
-    header nav ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .group {
-        width: 100%;
-        overflow: hidden;
-        display: flex;
-        flex-direction: row;
-    }
-    .firstBreak > article {
-        height: 300px;
-    }
-    section#projects > h2 {
-        margin: 5%;
-        padding: 2.5%;
-    }
-    footer, 
-    footer > section > nav > ul > li > a,
-    footer > section > h5, 
-    footer > section > h6 
-    {   margin: 0;
-        margin-top: 1%;
-        padding: 1% 0;
-    }
-    footer {
-        margin-top: 5%
-    }
-    footer > section > nav > ul > li {
-        margin: 2%;
-        width: 80%;
-    }
-    footer > section > nav > ul {
-        display: flex;
-        flex-direction: row;
-        margin: 0 auto;
-    }
-}
-
-@media screen and (min-width: 1024px){
-    header {
-        height: 100px;
-    }
-    header > * {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    header nav {
-        width: 60%;
-    }
-    p {
-        margin: 0;
-        padding: 2.5%;
-    }
-    section#projects > h2 {
-        margin: 2.5%;
-        padding: 2.5%;
-    }
-    legend > p {
-        width: 100%;
-    }
-    footer > section {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        width: 100%;
-        margin: 0 auto;
-    }
-    footer > section > nav {
-        width: 60%;
-    }
+footer a:visited {
+  /* pseudo-cclass for links */
+  text-shadow: 2px 2px 5px black;
 }
